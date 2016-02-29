@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Content
+{
+	font-size:16px;
+	padding:20px;
+	line-height:25px;
+	/*text-indent:2em;*/
+	/*width:900px;*/
+    /*line-height: 1.8;*/
+    color: #333;
+}
