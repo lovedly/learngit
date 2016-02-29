@@ -1,1 +1,1 @@
-![](https://github.com/lovedly/learngit/JDleft.png
+![](http://www.baidu.com/img/bdlogo.gif) 
