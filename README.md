@@ -8,4 +8,7 @@
 ![](https://github.com/lovedly/learngit/raw/master/images/canvas滑竿缩放.png "放大还是缩小了？") 
 ![](https://github.com/lovedly/learngit/raw/master/images/canvas水印.png "妈妈再也不怕被盗用了") 
 ![](https://github.com/lovedly/learngit/raw/master/images/聊天室前端显示.png "简易的聊天室") 
+![](https://github.com/lovedly/learngit/raw/master/images/sales.png "销售统计") 
+![](https://github.com/lovedly/learngit/raw/master/images/student.png "学生名册") 
 ![](http://www.baidu.com/img/bdlogo.gif "百度logo") 
+
