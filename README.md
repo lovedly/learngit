@@ -6,6 +6,8 @@
 ![](https://github.com/lovedly/learngit/raw/master/images/现代博物馆下部分.png  "现代浏览器博物馆下") 
 ![](https://github.com/lovedly/learngit/raw/master/images/canvas滑竿缩放.png "放大还是缩小了？") 
 ![](https://github.com/lovedly/learngit/raw/master/images/canvas水印.png "妈妈再也不怕被盗用了") 
+![](https://github.com/lovedly/learngit/raw/master/images/canvas红包上.png "模糊化处理")
+![](https://github.com/lovedly/learngit/raw/master/images/canvas红包下.png "清晰化处理")
 ![](https://github.com/lovedly/learngit/raw/master/images/聊天室前端显示.png "简易的聊天室") 
 ![](https://github.com/lovedly/learngit/raw/master/images/sales.png "销售统计") 
 ![](https://github.com/lovedly/learngit/raw/master/images/WebSales.png "在线销售统计")
