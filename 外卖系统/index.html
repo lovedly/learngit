@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="diner.css">
+<title>外卖系统</title>
+</head>
+
+<body>
+   <h1>订餐系统</h1>
+   <h2>填写表单并且提交表单就可以订餐咯！</h2>
+   <form action="http://ceshi.com/dingcan.php" method="post">
+   <div class="diner">
+   <p>
+   选择哪家餐厅：
+   </p>
+   <p>
+   <select name="餐厅">
+      <option value="东1厅">东1厅</option>
+      <option value="东2厅">东2厅</option>
+      <option value="东3厅">东3厅</option>
+      <option value="东4厅">东4厅</option>
+    </select>
+    </p>
+    </div>
+    <div class="diner">
+    <p>套餐:</p>
+    <p>
+    <input type="radio" name="type" value="套餐1" checked>套餐1<br>
+    <input type="radio" name="type" value="套餐2">套餐2<br>
+    <input type="radio" name="type" value="套餐3">套餐3
+    </p> 
+    </div>
+    <div class="diner">
+    <p>快餐的数量：</p>
+    <p><input type="number" id="bags" name="bags" min="1" max="10" required> </p>
+    </div>
+    
+    <div class="diner lable">
+    <p>必须送到的时间：</p>
+    <p><input type="date" name="date"></p>
+    </div>
+    
+    
+    <div class="diner">
+     <p>额外:</p>
+     <P> 
+        <input type="checkbox" name="extras[]" value="礼品包装">礼品包装<br>
+        <input type="checkbox" name="extras[]" value="商品目录" checked>随订单附送商品目录
+    </p>
+    </div>
+   <div class="diner">  
+   <p class="heading">送餐到:</p>
+      <p></p>
+   </div>
+   <div class="diner">
+      <p>姓名：</p>
+      <p> <input type="text" name="name" value="" required></p>
+   </div>
+   <div class="diner">
+      <p>地址：</p>
+      <p><input type="text" name="address" required></p>
+    </div>
+    <div class="diner">
+      <p>联系号码：</p>
+      <P><input type="tel" name="phone" required></P>
+     </div>
+   </p>
+   </div>
+   <div class="diner">
+   <p>你的建议：</p>
+      <p><textarea name="comments" placeholder="请输入你的建议，您的建议很重要" rows="10" cols="48"></textarea>
+   </p>
+   </div>
+   <div class="diner">
+   <p></p>
+   <p> <input type="submit" value="马上订餐"></p>
+   </div>
+   </form>
+</body>
+</html>

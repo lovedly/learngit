@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:20px;
+	
+	
+}
+
+form{
+	display:table;
+	padding:10px;
+	border:thin dotted #7e7e7e;
+	background-color:#e1ceb8;
+
+	}
+	
+form textarea{
+	width:500xp;
+	height:200px;
+}
+
+.diner{
+	display:table-row;
+}
+
+.diner p{
+	display:table-cell;
+	vertical-align:top;
+	padding:3px;
+}
+
+.diner p:first-child{
+	text-align:right;
+}
+p.heading{
+	font-weight:bold;
+}
+
