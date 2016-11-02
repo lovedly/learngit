@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>寻找丢失的小猫</title>
+<link rel="stylesheet"  href="css/mycat.css"/>
+</head>
+<body>
+   <p>寻找丢失的小猫:</p>
+   <form method="post" action="report.php">
+   <label for="name">姓名：</label>
+   <input type="text" id="yourname" name="yourname"/><br/>
+   <label for="email">你的邮箱地址？</label>
+   <input type="text" id="email" name="email"/><br/>
+   <label for="whenithappened">什么时候发生的？</label>
+   <input type="text" id="whenithappened" name="whenithappened"/><br/>
+    <label for="howlong">过去多久时间?</label>
+    <input type="text" id="howlong" name="howlong" /><br />
+    <label for="howmany">你看到有多少个动物?</label>
+    <input type="text" id="howmany" name="howmany" /><br />
+    <label for="description">描述它们在干吗</label>
+    <input type="text" id="description" name="description" size="32" /><br />
+   <label for="mycat">看到我家的猫<strong>奶糖</strong>吗？</label>
+   是 <input id="mycat" name="mycat" type="radio" value="是">
+   否 <input id="mycat" name="mycat" type="radio" value="否"><br/>
+   <img src="images/460.jpg" width="150" height="110" alt="我的猫奶糖"/><br/>
+   <label for="other">其他信息</label>
+   <textarea id="other" name="other"></textarea><br/>
+   <input type="submit" value="提交" name="submit"/>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+form label {
+  display: inline-block;
+  width: 325px;
+  margin-top:10px;
+  font-weight: bold;
+}
